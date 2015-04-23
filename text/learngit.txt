@@ -72,6 +72,17 @@
     命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
 
+让Git显示颜色，会让命令输出看起来更醒目：
+`$ git config --global color.ui true`
+
+配置别名
+		$ git config --global alias.st status
+		$ git config --global alias.co checkout
+		$ git config --global alias.ci commit
+		$ git config --global alias.br branch
+		$ git config --global alias.unstage 'reset HEAD'
+		$ git config --global alias.last 'log -1'
+
 
 
 
