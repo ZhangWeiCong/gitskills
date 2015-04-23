@@ -5,4 +5,4 @@ Create a new branch der;
 在feature1添加的第一条语句&&.
 在feature1添加的第一条语句&&.
 在feature1添加的第一条语句&&.
-Create a new branch is a quick & simple.
+Create a new branch is a quick and simple.
