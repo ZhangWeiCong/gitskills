@@ -1,0 +1,56 @@
+##Git 命令操作说明
+
+全局配置用户名和邮件
+		$ git config --global user.name "Your Name"
+		$ git config --global user.email "email@example.com"
+
+
+在当前目录下使用命令`$ git init` ,就可以将当前目录设置为版本库.  
+
+添加当前目录下的文件到仓库缓存`$ git add readme.txt`    
+格式`$ git add <file>`    
+添加当前目录下所有文件到仓库缓存`$ git add ./`    
+
+把文件提交到仓库`$ git commit -m"简短的信息"`  
+使用`$ git commit `会打开一个编辑器,可以书写大量内容  
+
+`$ git status` 查看当前分支的仓库状态.  
+`$ git diff <file>` 查看file的变化.  
+`$ git log` 查看提交提交日志.  
+`$ git log --pretty=oneline` 使用一行数据显示提交日志.  
+`$ git reset --hard HEAD^` 回到上一个版本.  
+[HEAD]指向当前版本库,[HEAD^]指向上一个版本库.[HEAD^^]指向上上个版本库.  
+[HEAD~100]指向前100个版本库.  
+`$ git reset --hard <id>` 回到指定的版本id.     
+`$ git reflog`  显示所有命令操作列表.
+  
+`$ git checkout -- <file/dir>`  可以丢弃工作区的修改.
+让这个文件/目录回到最近一次git commit或git add时的状态.   
+
+`$ git reset HEAD file` 可以把暂存区的修改撤销掉（unstage），重新放回工作区  
+`git reset`命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本  
+
+
+
+
+
+
+`$ git stash` 保存当前工作区现场.
+`$ git stash list` 查看现场备份列表.  
+`$ git stash apply`回复现场.  
+`$ git stash drop` 删除现场备份.  
+`$ git stash pop` 回复现场的同时撒谎年初现场备份.  
+
+`$ git branch -d feature-vulcan` 删除分支
+`$ git branch -D feature-vulcan` 强制删除分支
+
+
+`$ git push origin [branchName]` 推送分支
+
+
+
+
+
+
+
+
