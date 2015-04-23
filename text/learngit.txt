@@ -47,6 +47,9 @@
 
 `$ git push origin [branchName]` 推送分支
 
+`$ git tag v1.0` 给当前分支打上标签.  
+`$ git tag` 查看所有标签.  
+
 
 
 
